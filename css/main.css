@@ -1,0 +1,63 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 1.7;
+  /* color: #777; */
+  padding: 3rem;
+}
+
+.header {
+  height: 95vh;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(rgba(141, 99, 99, 0.651)), to(rgba(207, 185, 185, 0.651))), url(../img/architecture-bridge-building-capital-220774.jpg);
+  background-image: linear-gradient(to right top, rgba(141, 99, 99, 0.651), rgba(207, 185, 185, 0.651)), url(../img/architecture-bridge-building-capital-220774.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85vh);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85vh);
+}
+
+.header__navigation {
+  position: absolute;
+  top: 100px;
+  left: 150px;
+}
+
+.header__navigation--link {
+  font-size: 24px;
+  color: #7cffc4;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 100px;
+}
+
+.header__text-box {
+  position: absolute;
+  top: 40%;
+  left: 70%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: left;
+  width: 20%;
+}
+
+.header_title {
+  display: block;
+  font-size: 60px;
+  letter-spacing: 10px;
+  color: #7cffc4;
+}
+/*# sourceMappingURL=main.css.map */
