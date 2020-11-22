@@ -1,0 +1,10 @@
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+
+
+    .col-1of2 {
+        padding: 8rem;
+    }
+}
