@@ -1,7 +1,14 @@
 .section-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
     background-color: $color-grey-light-1;
     padding: 165px 0;
     margin-top: -15vh;
+}
+
+.col-1of2 {
+    padding: 8rem;
 }
 
 .composition {
@@ -18,7 +25,7 @@
 
         &--p1 {
             top: -20px;
-            right: 0;
+            right: 0px;
         }
 
         &--p2 {

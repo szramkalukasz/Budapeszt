@@ -1,0 +1,12 @@
+.kitchen {
+    background-color: $color-grey-light-1;
+
+    &__title {
+        text-align: center;
+        margin: 50px 0 30px;
+        font-size: $h2-font-size;
+        text-transform: uppercase;
+        background-color: rgba($color-black, .1);
+        font-weight: 700;
+    }
+}
