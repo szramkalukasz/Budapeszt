@@ -51,7 +51,7 @@ body {
 
 .gallery {
   background-color: #3E5151;
-  padding: 15px;
+  padding-top: 15px;
 }
 
 .gallery__title {
@@ -78,6 +78,12 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.layout__picture {
+  margin-top: 30px;
+  -webkit-box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
 }
 
 .header {
@@ -348,6 +354,8 @@ body {
 
 .pepper__picture {
   width: 80%;
+  -webkit-box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
 }
 
 .meals {
@@ -390,6 +398,8 @@ body {
 
 .vineyard__picture {
   width: 90%;
+  -webkit-box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
 }
 
 .wine {
